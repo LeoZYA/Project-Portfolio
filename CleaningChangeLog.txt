@@ -1,0 +1,35 @@
+Changes:
+1.Removed:  Item Number, Postal Code,Description,Package Size Column
+
+
+Notes:
+1. 'Description' column deemed unnecessary for analysis.
+2. 'Postal Code' column had no available data.
+
+
+Changes:
+1. Assigned "Uncategorized" to 17 rows with missing categories. 
+
+Notes:
+1. The items may have a better-suited category based on the product name and description; however, 
+considering the lack of specific information and the potential for inaccuracies in automated categorization, 
+the decision was made to temporarily designate them as "Uncategorized" for further manual review and refinement.
+
+
+Changes: 
+1. Assigned "Unknown" 564 rows with missing brands.
+
+Notes:
+1. The Brand information could be embeded in the item names for some products, but I did not have the ability to manually do that.
+
+
+Changes: 
+1. Removed 396 rows Items with list price of 0.
+
+Notes: 
+1. All 0 list price items are unavailable, which means that the value 0 might serve purpose such as place holder, data privacy or probably even marketing 
+strategy instead of being outliers or typo. However a discussion with specilists would be required to find out.
+
+
+
+
